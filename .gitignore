@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+
+# OS
+.DS_Store
+
+# Outputs / logs
+botData/
+generation*.txt
+*Chromosome*Information*.txt
+python-scripts/output.txt
+
+# Local XPilot binaries / runtime artifacts
+CI/*
+!CI/simple.xp
+python-scripts/libpyAI.so
+python-scripts/__pycache__/
+
+# Legacy scratch directory (kept locally, not in git)
+python-scripts/
+
